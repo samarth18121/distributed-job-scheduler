@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const API_BASE = 'http://localhost:8080';
+const API_BASE = 'http://3.238.107.244:8080';
 const STATUSES = ['QUEUED', 'RUNNING', 'RETRYING', 'DONE', 'DEAD_LETTERED'];
 
 function App() {
